@@ -1,0 +1,10 @@
+model:
+  name: "COASTEmbAbl"
+  img_dim: 1024
+  hidden_dim: 512
+  feat_dim: 1024
+  num_genes: null
+  dropout: 0.1
+  num_layers: 3
+  num_heads: 8
+  add_type_embed: true

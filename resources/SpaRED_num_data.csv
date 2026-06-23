@@ -1,0 +1,11 @@
+Project,Train slide,Val slide,Test slide,Train spot,Val spot,Test spot
+abalo_human_squamous_cell_carcinoma,2,1,1,5542,2496,2336
+erickson_human_prostate_cancer_p1,4,2,1,12479,5298,2972
+mirzazadeh_human_small_intestine,2,1,1,5379,2728,2367
+mirzazadeh_mouse_bone,2,1,1,4193,1202,1788
+mirzazadeh_mouse_brain_p1,2,1,1,8585,4491,4166
+mirzazadeh_mouse_brain_p2,2,1,1,8908,4107,4332
+vicari_human_striatium,2,1,1,9726,4792,4513
+vicari_mouse_brain,8,4,2,23646,13407,6729
+villacampa_lung_organoid,2,1,1,860,439,533
+villacampa_mouse_brain,3,1,1,7444,2215,2535

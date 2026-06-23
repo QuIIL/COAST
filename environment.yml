@@ -1,0 +1,9 @@
+name: COAST
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - openslide
+  - pip:
+      - -r requirements.txt

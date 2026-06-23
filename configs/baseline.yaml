@@ -1,0 +1,39 @@
+tag: ""
+
+data:
+  project: null
+  base_path: "/home/work/.home/data/SpaRED_cache"
+  save_dir: "./results/COAST"
+  save_pred_dir: "/home/work/.home/data/SpaRED_pred/COAST"
+  batch_size: 1
+  num_workers: 8
+  near_k: 18
+  far_k: 72
+  nn_key: "nn36_idx"
+  far_scope: "slide"
+
+train:
+  epochs: 10
+  lr: 0.002
+  weight_decay: 0.0001
+  cosine_scheduler: false
+  warmup_epochs: 3
+  seed: 47
+  norm_reg: True
+  norm_diff: True
+
+model:
+  name: "COAST"
+  img_dim: 1024
+  hidden_dim: 512
+  feat_dim: 1024
+  num_genes: null
+  dropout: 0.1
+  num_layers: 3
+  num_heads: 8
+  add_type_embed: true
+
+loss:
+  name: "default"
+  w_spot: 1.0
+  w_diff: 1.0

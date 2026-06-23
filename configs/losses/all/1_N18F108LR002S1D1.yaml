@@ -1,0 +1,12 @@
+data:
+  near_k: 18
+  far_k: 108
+
+train:
+  norm_reg: True
+  norm_diff: True
+
+loss:
+  name: "N18F108S1D1"
+  w_spot: 1.0
+  w_diff: 1.0

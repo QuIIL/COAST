@@ -1,0 +1,12 @@
+data:
+  near_k: 18
+  far_k: 72
+
+train:
+  norm_reg: True
+  norm_diff: True
+
+loss:
+  name: "N18F72S1D2"
+  w_spot: 1.0
+  w_diff: 2.0
