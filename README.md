@@ -1,5 +1,6 @@
 # COAST: Context-Aware Differential Learning for Gene Expression Prediction in Spatial Transcriptomics
 
+[![Paper](https://img.shields.io/badge/Paper-MICCAI%202026-blue)](https://link.springer.com/chapter/10.1007/978-3-032-38224-5_6)
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-orange)](#installation)
 
 Official implementation of COAST: Context-Aware Differential Learning for Gene Expression Prediction in Spatial Transcriptomics
@@ -98,6 +99,21 @@ python -m scripts.analysis.visualize_external_predictions --help
 This repository is released under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).  
 Commercial use is not permitted. Non-commercial research and educational use is permitted with appropriate attribution.  
 This license applies only to the original COAST source code in this repository. Third-party resources are subject to their own licenses and usage restrictions.  
+
+---
+
+## Citation
+
+If you find this repository useful, please cite COAST:
+
+@inproceedings{byeon2026coast,
+  title={COAST: Context-Aware Differential Learning for Gene Expression Prediction in Spatial Transcriptomics},
+  author={Byeon, Keunho and Park, Sunhong and Lim, Jeewoo and Kwak, Jin Tae},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={55--65},
+  year={2026},
+  organization={Springer}
+}
 
 ---
 
