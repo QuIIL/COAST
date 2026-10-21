@@ -106,6 +106,7 @@ This license applies only to the original COAST source code in this repository. 
 
 If you find this repository useful, please cite COAST:
 
+```bibtex
 @inproceedings{byeon2026coast,
   title={COAST: Context-Aware Differential Learning for Gene Expression Prediction in Spatial Transcriptomics},
   author={Byeon, Keunho and Park, Sunhong and Lim, Jeewoo and Kwak, Jin Tae},
@@ -114,6 +115,7 @@ If you find this repository useful, please cite COAST:
   year={2026},
   organization={Springer}
 }
+```
 
 ---
 
